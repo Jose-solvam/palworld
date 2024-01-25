@@ -3,7 +3,7 @@
 GAME_PATH="/palworld"
 
 function installServer() {
-    # force a fresh install of all
+    # force a fresh install of all gggg
     echo ">>> Doing a fresh install of the gameserver"
     /home/steam/steamcmd/steamcmd.sh +force_install_dir "/palworld" +login anonymous +app_update 2394010 validate +quit
 }
